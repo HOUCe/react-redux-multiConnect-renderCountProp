@@ -4,7 +4,16 @@
 
 本文将借助Ryan Johnson的[文章:Quick Redux tips for connecting your React components](https://medium.com/dailyjs/quick-redux-tips-for-connecting-your-react-components-e08da72f5b3)，来告诉你Redux的秘密和演化。同时，**穿插一个很简单的场景，来说明旧时思想的保守性，以及最新的设计理念。**
 
-同时，本文提供了**一个结合“最先进”Redux理念的todo list demo，[地址请点击这里]()**，欢迎围观并下载。
+同时，本文提供了**一个结合“最先进”Redux理念的todo list demo，[地址请点击这里](https://github.com/HOUCe/react-redux-multiConnect-renderCountProp)**，欢迎围观并下载。
+
+如果你对这套技术栈有兴趣的话，欢迎参看我的其他类似文章：
+
+- [解析Twitter前端架构 学习复杂场景数据设计](http://www.jianshu.com/p/7a56ac1de2a8)
+- [React Conf 2017 干货总结1: React + ES next = ♥](http://www.jianshu.com/p/83c86dd0802d)
+- [React+Redux打造“NEWS EARLY”单页应用 一个项目理解最前沿技术栈真谛](http://www.jianshu.com/p/cde3cf7e2760)
+- [一个react+redux工程实例](http://www.jianshu.com/p/8e28be0e7ab1)
+- ......
+
 
 
 ## Redux原作者的转变
@@ -89,7 +98,7 @@ React-Redux提供connect方法，用于从UI组件生成容器组件。connect�
 
 另外，我采用了react-redux: 5.0.1版本，这个版本下，经过代码处理，我们可以看到在组件中多了一个renderCountProp，这对于我们的性能调试非常重要。
 
-所有的代码实现，我已经托管在了[Github仓库当中]()，欢迎围观评论！
+所有的代码实现，我已经托管在了[Github仓库当中](https://github.com/HOUCe/react-redux-multiConnect-renderCountProp)，欢迎围观评论！
 
 
 Happy Coding!
